@@ -1,3 +1,4 @@
+startup();
 function startup() {
   var el = document.getElementsByTagName("canvas")[0];
   el.addEventListener("touchstart", handleStart, false);
