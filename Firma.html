@@ -70,7 +70,7 @@
       var ctx = el.getContext("2d");
       var touches = evt.changedTouches;
       
-      ctx.lineWidth = 4;
+      ctx.lineWidth = 20;
             
       for (var i=0; i<touches.length; i++) {
         var color = colorForTouch(touches[i]);
@@ -105,9 +105,11 @@
   </script>
 </head>
 <body onload="startup()">
-  <canvas id="canvas" width="600" height="600">
+  <p>Dibuja con el dedo</p>
+  <canvas id="canvas" width="1000" height="1000">
     You really badly need to use a different browser.
   </canvas>
+  <p>mu rico</p>
 
 </body>
 </html>
